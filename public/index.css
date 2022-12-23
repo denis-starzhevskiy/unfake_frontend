@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#0f0e13;
+    background-image:
+            radial-gradient(at 0% 0%, hsla(237,54%,7%,1) 0, transparent 50%),
+            radial-gradient(at 50% 0%, hsla(184,95%,52%,1) 0, transparent 50%),
+            radial-gradient(at 100% 0%, hsla(156,100%,49%,1) 0, transparent 50%);
+}
+
+#root{
+    background-image:
+            radial-gradient(at 0% 0%, hsla(237,54%,7%,1) 0, transparent 50%),
+            radial-gradient(at 50% 0%, hsla(184,95%,52%,1) 0, transparent 50%),
+            radial-gradient(at 100% 0%, hsla(156,100%,49%,1) 0, transparent 50%);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill:hover{
+    border-radius: inherit;
+    animation-name: mui-auto-fill;
+    animation-duration: 5000s;
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #08091b;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0a1227;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00ff97;
+}
